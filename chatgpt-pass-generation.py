@@ -10,7 +10,7 @@ def generate_password():
         # Crear una contraseña de al menos 12 caracteres
         password = ''.join(random.choices(
             string.ascii_uppercase + string.ascii_lowercase + string.digits + string.punctuation,
-            k=12
+            k=20
         ))
         
         # Asegurarse de que la contraseña contenga al menos una mayúscula, una minúscula, un número y un carácter especial
